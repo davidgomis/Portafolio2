@@ -1,5 +1,6 @@
 var $hidden = $('#hidden-text'),
-	$button = $('#show-text');
+	$button = $('#show-text'),
+	$button2 = $('.article-down-button');
 
 function mostrarTexto(){
 	$hidden.slideToggle();
@@ -7,4 +8,5 @@ function mostrarTexto(){
 }
 
 // Eventos
-$button.click( mostrarTexto );
+$button.click(mostrarTexto);
+$button2.click(mostrarTexto);

@@ -54,12 +54,27 @@ body
 .article-title
 {
 	font-size: 16px;
+	text-align: left;
+	margin-left: 25px;
+}
+
+.article-link
+{
+	position: relative;
+	left: 175px;
+	bottom: 40px;
+}
+
+.article-figure
+{
+	margin: auto;
 }
 
 .article-figure-description
 {
 	text-align: left;
 	padding-bottom: 0.5em;
+	margin-left: 25px;
 }
 
 .article-figure-image
@@ -78,5 +93,21 @@ body
 #hidden-text
 {
 	display: none;
+}
+
+.article-down-description
+{
+	position: relative;
+	bottom: 40px;
+	left: 25px;
+	width: 90%;
+	text-align: left;
+}
+
+.article-down-button
+{
+	position: relative;
+	bottom: 45px;
+	left: 190px;
 }
 
