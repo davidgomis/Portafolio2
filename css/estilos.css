@@ -1,0 +1,82 @@
+html
+{
+	background: #2F4047;
+}
+
+body
+{
+	text-align: center;
+	background: #D3DDE2;
+	width: 40%;
+	margin:0 auto;
+}
+
+.Header
+{
+	margin-top: 2em;
+}
+
+.menu
+{
+	text-align: right;
+	margin-right:2em;
+}
+
+.menu-item
+{
+	display: block;
+
+}
+
+.menu-list
+{
+	padding-top: 1em;
+}
+
+.menu-link
+{
+	color: black;
+	text-decoration: none;
+}
+
+.content
+{
+	
+}
+
+.article
+{
+	text-align: center;
+	width: 500px;
+	margin: auto;
+}
+
+.article-title
+{
+	font-size: 16px;
+}
+
+.article-figure-description
+{
+	text-align: left;
+	padding-bottom: 0.5em;
+}
+
+.article-figure-image
+{
+	background-image: url("../images/item.jpg");
+	width: 448px;
+	height: 112px;
+	border: 1px solid black;
+}
+
+.article-figure-image:hover
+{
+	border: 2px solid black;
+}
+
+#hidden-text
+{
+	display: none;
+}
+
